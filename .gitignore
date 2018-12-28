@@ -1,0 +1,14 @@
+.settings
+.project
+.classpath
+target
+.idea
+.idea/
+*.iml
+npm-debug.log
+/logs/
+/sloth-ice/src/main/slice/
+!/sloth-ice/src/main/slice/README.md
+DB/cosmos.pdb
+sloth-cosmos/.DS_Store
+.DS_Store
