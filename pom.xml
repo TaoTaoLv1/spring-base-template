@@ -28,6 +28,9 @@
         <!-- basis -->
         <spring.boot.version>2.1.1.RELEASE</spring.boot.version>
 
+        <!-- common -->
+        <jackson.version>2.9.6</jackson.version>
+
 
     </properties>
 
