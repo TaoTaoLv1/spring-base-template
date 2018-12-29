@@ -1,4 +1,4 @@
-package com.dokang.base.entity;
+package com.dokang.lib.base.entity;
 
 import java.util.Date;
 

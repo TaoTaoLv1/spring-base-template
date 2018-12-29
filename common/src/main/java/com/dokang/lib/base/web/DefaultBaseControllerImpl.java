@@ -1,9 +1,9 @@
-package com.dokang.base.web;
+package com.dokang.lib.base.web;
 
-import com.dokang.base.entity.BaseEntity;
-import com.dokang.base.entity.PageRequestMessage;
-import com.dokang.base.entity.ResponseMessage;
-import com.dokang.base.service.BaseService;
+import com.dokang.lib.base.entity.BaseEntity;
+import com.dokang.lib.base.entity.PageRequestMessage;
+import com.dokang.lib.base.entity.ResponseMessage;
+import com.dokang.lib.base.service.BaseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;

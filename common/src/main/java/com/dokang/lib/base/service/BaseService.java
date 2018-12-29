@@ -1,8 +1,8 @@
-package com.dokang.base.service;
+package com.dokang.lib.base.service;
 
-import com.dokang.base.entity.BaseEntity;
-import com.dokang.base.entity.PageRequestMessage;
-import com.dokang.base.entity.PageResponseMessage;
+import com.dokang.lib.base.entity.BaseEntity;
+import com.dokang.lib.base.entity.PageRequestMessage;
+import com.dokang.lib.base.entity.PageResponseMessage;
 
 import java.util.List;
 import java.util.Map;

@@ -1,7 +1,7 @@
-package com.dokang.base.web;
+package com.dokang.lib.base.web;
 
-import com.dokang.base.entity.BaseEntity;
-import com.dokang.base.entity.ResponseMessage;
+import com.dokang.lib.base.entity.BaseEntity;
+import com.dokang.lib.base.entity.ResponseMessage;
 
 /**
  * @author: YwT
