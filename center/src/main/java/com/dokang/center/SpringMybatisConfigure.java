@@ -22,7 +22,7 @@ import java.util.Properties;
  * @create: 2018-12-30 16:45
  **/
 @Configuration
-public class SpringMybatis implements EnvironmentAware {
+public class SpringMybatisConfigure implements EnvironmentAware {
 
     private Environment env;
 

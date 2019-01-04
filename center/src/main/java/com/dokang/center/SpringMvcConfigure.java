@@ -1,10 +1,12 @@
 package com.dokang.center;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.MediaType;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
+import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
@@ -18,15 +20,16 @@ import java.util.List;
  * @create: 2018-12-30 14:15
  **/
 @Configuration
-@EnableWebMvc
 public class SpringMvcConfigure implements WebMvcConfigurer {
+
+    @Autowired
+    private ObjectMapper objectMapper;
 
     @Bean
     public MappingJackson2HttpMessageConverter getMappingJackson2HttpMessageConverter() {
         MappingJackson2HttpMessageConverter mappingJackson2HttpMessageConverter = new
                 MappingJackson2HttpMessageConverter();
         //设置日期格式
-        ObjectMapper objectMapper = new ObjectMapper();
         SimpleDateFormat smt = new SimpleDateFormat("yyyy-MM-dd");
         objectMapper.setDateFormat(smt);
         mappingJackson2HttpMessageConverter.setObjectMapper(objectMapper);
