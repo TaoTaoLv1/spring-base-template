@@ -23,14 +23,10 @@ import java.io.IOException;
  **/
 @Component
 public class LoginSuccessHandler extends SavedRequestAwareAuthenticationSuccessHandler {
-    /**
-     * 日志
-     */
+
     private Logger logger = LoggerFactory.getLogger(getClass());
 
-    /**
-     * json 转换工具类
-     */
+    //json 转换工具类
     @Autowired
     private ObjectMapper objectMapper;
 
