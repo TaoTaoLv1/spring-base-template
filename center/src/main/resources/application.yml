@@ -24,6 +24,4 @@ logging:
      com.dokang.center.module : debug
 mybatis:
   MapperScan: com.dokang.center
-server:
-  port: 8081
 
